@@ -14,7 +14,6 @@ public class Calculadora {
     public static void main(String[] args) {
         FrmCalculadora calc = new FrmCalculadora();
         calc.setTitle( "Calculadora do SkyNet");
-        calc.setBackground(Color.yellow);
         calc.setLocationRelativeTo(calc);
         calc.setVisible(true);
         

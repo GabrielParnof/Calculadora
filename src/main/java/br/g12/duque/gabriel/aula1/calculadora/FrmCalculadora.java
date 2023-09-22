@@ -57,18 +57,23 @@ public class FrmCalculadora extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Calculadora");
 
+        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
         jTextField1.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
 
-        jButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton1.setBackground(new java.awt.Color(153, 153, 153));
+        jButton1.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton1.setText("7");
 
-        jButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton2.setBackground(new java.awt.Color(153, 153, 153));
+        jButton2.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton2.setText("8");
 
-        jButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton3.setBackground(new java.awt.Color(153, 153, 153));
+        jButton3.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton3.setText("9");
 
-        jButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton4.setBackground(new java.awt.Color(153, 153, 153));
+        jButton4.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton4.setText("x");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -76,22 +81,28 @@ public class FrmCalculadora extends javax.swing.JFrame {
             }
         });
 
-        jButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton5.setBackground(new java.awt.Color(153, 153, 153));
+        jButton5.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton5.setText("4");
 
-        jButton6.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton6.setBackground(new java.awt.Color(153, 153, 153));
+        jButton6.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton6.setText("5");
 
-        jButton7.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton7.setBackground(new java.awt.Color(153, 153, 153));
+        jButton7.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton7.setText("6");
 
-        jButton8.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton8.setBackground(new java.awt.Color(153, 153, 153));
+        jButton8.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton8.setText("/");
 
-        jButton9.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton9.setBackground(new java.awt.Color(153, 153, 153));
+        jButton9.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton9.setText("+");
 
-        jButton10.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton10.setBackground(new java.awt.Color(153, 153, 153));
+        jButton10.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton10.setText("1");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,22 +110,28 @@ public class FrmCalculadora extends javax.swing.JFrame {
             }
         });
 
-        jButton11.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton11.setBackground(new java.awt.Color(153, 153, 153));
+        jButton11.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton11.setText("3");
 
-        jButton12.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton12.setBackground(new java.awt.Color(153, 153, 153));
+        jButton12.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton12.setText("2");
 
-        jButton13.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton13.setBackground(new java.awt.Color(153, 153, 153));
+        jButton13.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton13.setText("-");
 
-        jButton15.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton15.setBackground(new java.awt.Color(153, 153, 153));
+        jButton15.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton15.setText("=");
 
-        jButton16.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton16.setBackground(new java.awt.Color(153, 153, 153));
+        jButton16.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton16.setText(".");
 
-        jButton17.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton17.setBackground(new java.awt.Color(204, 204, 204));
+        jButton17.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton17.setText("Limpar");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +139,8 @@ public class FrmCalculadora extends javax.swing.JFrame {
             }
         });
 
-        jButton18.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
+        jButton18.setBackground(new java.awt.Color(153, 153, 153));
+        jButton18.setFont(new java.awt.Font("Liberation Sans", 3, 18)); // NOI18N
         jButton18.setText("0");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
